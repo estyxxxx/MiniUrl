@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import LinkModel from "./LinkModel.js";
 
 const UserSchema = mongoose.Schema({
     name: { type: String, required: true, },

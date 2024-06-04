@@ -1,4 +1,5 @@
-import LinkModel from "./LinkModel.js";
+import LinkModel from "./models/LinkModel.js";
+import ClickModel from "./models/ClickModel.js"
 
 const LinksController = {
     getList: async (req, res) => {
